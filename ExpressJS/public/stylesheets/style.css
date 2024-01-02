@@ -1,0 +1,22 @@
+body {
+    background: #000;
+    color: #fff;
+  }
+  
+  svg {
+    width: 95%;
+    position: fixed;
+    aspect-ratio: 16/9;
+    object-fit: contain;
+    top: 0;
+    height: 100vh;
+  }
+  
+  .vh {
+    height: 100vh;
+  }
+  
+  .g-center {
+    display: grid;
+    place-items: center;
+  }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body>
+    <svg width="100%" viewBox="0 0 1350 582" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+        <style>
+          @keyframes ltr{
+      0%{
+        stroke-dashoffset:10000;
+       
+      }
+      100%{
+              stroke-dashoffset:3000;
+            }
+    }
+          .path{
+             animation: ltr ease-in-out both;
+        animation-timeline:scroll();
+        animation-range:exit exit;
+          }
+        </style>
+      <defs>
+         <linearGradient id="gradient">
+          <stop offset="0" stop-color="white" stop-opacity="0"/>
+          <stop offset="0.8" stop-color="white"  stop-opacity="1"/>
+           <stop offset="0.8" stop-color="white"  stop-opacity="0"/>
+        </linearGradient>
+        
+        <mask id="gradient-mask">
+          <rect class="mask-rect" x="0" y="0" width="100%" height="100%" fill="url(#gradient)"/>
+        </mask>
+        
+      </defs>
+      <path d="M0 131.5C88.5 131.5 504.5 -225 773 241C987.8 613.8 1304.83 664.667 1436.5 643.5" stroke="#ff0000" stroke-width="4" stroke-dasharray="10000" class="path" stroke-linecap="round"/>
+        
+    <path d="M0.5 419.5C58 342.5 52.5 142.5 85 19.5C117.5 -103.5 225.5 435 171.5 419.5C117.5 404 97.4962 375.229 101.5 310.5C106.461 230.294 193.5 124.5 208 88.5C222.5 52.5 228.5 419.5 228.5 419.5M228.5 419.5C228.5 419.5 227 256.5 243 152C259 47.4999 278 47.4999 310 67.4999C342 87.4999 352.167 109.567 362.5 152C376.184 208.197 330.243 215.5 336 240C341.757 264.5 384.326 225.5 362.5 330.5C344 419.5 228.5 419.5 228.5 419.5ZM228.5 419.5C228.5 419.5 405.5 217.5 410.5 133C415.5 48.4999 395 38 395 58C395 78 400.964 173 395 234.5C389.036 296 382 396.5 401 416C420 435.5 463.503 324.602 500.5 269.5C524 234.5 497.426 382.717 523.5 416C548.235 447.574 584.928 397.729 584.928 366C584.928 222.5 581 220.5 590 215.5C599 210.5 578.485 337.883 604 400.5C655.78 527.573 720.225 92.3978 698 102.5C670.5 115 668.57 115.502 660 152C641.617 230.296 768.683 226.427 755.5 322C747.5 380 730.5 416 716 416C689.42 416 682.5 352.5 707 330.5C791.575 254.555 853.5 164.5 805 58C787.546 19.6727 812.842 115.411 814.5 163.5C817.743 257.565 790 402 805 416C820 430 890.569 210 913 234.5C947.984 272.711 902.331 378.454 947 416C970.5 435.753 1005.33 330.794 1084.5 269.5C1115.5 245.5 1130 214.809 1067 226C1047.65 229.437 1019.94 234.938 998.5 269.5C965 323.5 992.052 403.495 1043.5 416C1115.5 433.5 1118.73 351.776 1154.5 310.5C1200 258 1223.87 176.298 1219.55 118C1212.55 23.5 1188.5 423 1213 419.5C1237.5 416 1187.2 309.299 1233.05 245C1292.35 161.82 1429.28 115.907 1385.55 148C1260.05 240.087 1203.24 204.393 1203 269.5C1202.64 365.211 1506.05 373.5 1506.05 373.5" stroke="#FFFFFF" stroke-width="4" stroke-dasharray="10000" class="path" stroke-linecap="round"/>
+    
+    
+    
+      
+    </svg>
+    
+    <div class="vh g-center">
+      <h1> <%= scroll %> to start</h1>
+    </div>
+    <div class="vh g-center">
+      <h1>This is Amazing</h1>
+    </div>
+    <div class="vh g-center">
+      <h1>This is Modern</h1>
+    </div>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script> 
+    <script src="/javascripts/sc.js"></script> 
+    <!-- here we can defined our js file from public--javascript--files -->
+</body>
+</html>
