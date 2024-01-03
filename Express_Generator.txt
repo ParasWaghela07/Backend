@@ -1,0 +1,12 @@
+ Install Install
+  --> npm i express-generator -g
+
+ To create new app anywhere:
+   open cmd move to desktop
+   create new app:
+    express appname --view=ejs
+
+  Use three commands
+   cd appname
+   npm i
+   open it on vs code    

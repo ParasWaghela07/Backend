@@ -1,0 +1,60 @@
+
+//express js
+//install
+
+//express js boilerplate code --> go to npm -- search express -- copy code
+
+const express = require('express')
+const app = express()
+
+app.get('/', function (req, res) {
+  res.send('Hello World')
+})
+
+app.listen(3000)
+
+
+//express js ejs setup
+   //install ejs  --> npm i ejs
+
+   //set view engine -->app.set("view engine","ejs");
+
+   //create view folder
+
+   //render ejs files inside route --> 
+   app.get('/', function (req, res) {
+  res.render("index");
+})
+
+
+//express static file setup
+app.use(express.static("./public"));
+
+
+FOR EXAMPLE
+CODE:-
+
+const express = require('express')
+const app = express()
+
+app.set("view engine","ejs"); //activate ejs
+app.use(express.static("./public"));//activate css/js
+
+app.get('/', function (req, res) {
+  res.render("index");
+})
+
+app.listen(3000)
+
+
+
+
+
+
+
+
+
+
+
+
+//architecture of public folder
