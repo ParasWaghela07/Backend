@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const userModel=require('./users');
+const userModel=require('./users'); // for mongoDB
 
 //create 
 // req.session.any=anyVal;

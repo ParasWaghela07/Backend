@@ -1,0 +1,5 @@
+install connect-flash
+make sure you setup express-session
+make sure you put connect flash in a app.use function
+kisi b route me flashuse kr skte he
+koibi dusre route pe jake app.use ko vaapro

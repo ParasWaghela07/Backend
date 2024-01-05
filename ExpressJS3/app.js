@@ -13,7 +13,7 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-app.use(session({
+app.use(session({/////////////////////////////////////
   resave:false, // if session ki value change hi nai hui heto save mt kro , load kam hota he server pe
   saveUninitialized:false, // uninitialized data ko save mt kro , load kam hota he server pe
   secret:"Random_words" // secret string used to secure data , for encription
